@@ -1,0 +1,7 @@
+<module>
+  <inherits name='com.extjs.gxt.samples.resources.Resources' />
+  <inherits name='com.extjs.gxt.samples.Examples' />
+  <inherits name='com.extjs.gxt.themes.Themes' />
+  <entry-point class='com.extjs.gxt.samples.explorer.client.Explorer' />
+  <inherits name="com.google.gwt.junit.JUnit"/>
+</module>

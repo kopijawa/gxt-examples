@@ -1,0 +1,5 @@
+<module>
+  <inherits name='com.extjs.gxt.samples.resources.Resources' />
+  <servlet path="/mailservice" class="com.extjs.gxt.samples.mail.server.MailServiceImpl"/>
+  <entry-point class='com.extjs.gxt.samples.mail.client.Mail'/>
+</module>

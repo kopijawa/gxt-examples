@@ -1,0 +1,8 @@
+*.txt -crlf
+*.json -crlf
+*.js -crlf
+*.css -crlf
+*.html -crlf
+*.dtd -crlf
+*.java -crlf
+*.xml -crlf

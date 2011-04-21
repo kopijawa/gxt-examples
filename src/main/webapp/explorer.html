@@ -1,0 +1,81 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Ext GWT 2.2.1 Explorer</title>
+<script language='javascript' src='gxt/flash/swfobject.js'></script>
+<link rel="stylesheet" type="text/css" href="gxt/css/gxt-all.css" />
+<link rel="stylesheet" type="text/css" href="samples/css/resources.css" />
+<style>
+#loading {
+  position: absolute;
+  left: 45%;
+  top: 40%;
+  margin-left: -45px;
+  padding: 2px;
+  z-index: 20001;
+  height: auto;
+  border: 1px solid #ccc;
+}
+
+#loading a {
+  color: #225588;
+}
+
+#loading .loading-indicator {
+  background: white;
+  color: #444;
+  font: bold 13px tahoma, arial, helvetica;
+  padding: 10px;
+  margin: 0;
+  height: auto;
+}
+
+#loading .loading-indicator img {
+  margin-right:8px;
+  float:left;
+  vertical-align:top;
+}
+
+#loading-msg {
+  font: normal 10px arial, tahoma, sans-serif;
+}
+
+.search-item {
+    font:normal 11px tahoma, arial, helvetica, sans-serif;
+    padding:3px 10px 3px 10px;
+    border:1px solid #fff;
+    border-bottom:1px solid #eeeeee;
+    white-space:normal;
+    color:#555;
+}
+.search-item h3 {
+    display:block;
+    font:inherit;
+    font-weight:bold;
+    color:#222;
+}
+
+.search-item h3 span {
+    float: right;
+    font-weight:normal;
+    margin:0 0 5px 5px;
+    width:100px;
+    display:block;
+    clear:none;
+}
+</style>
+</head>
+<body style="overflow: hidden">
+
+<div id="loading">
+    <div class="loading-indicator">
+    <img src="gxt/images/default/shared/large-loading.gif" width="32" height="32"/>Ext GWT 2.2.1<br />
+    <span id="loading-msg">Loading&nbsp;demo...</span>
+    </div>
+</div>
+
+<script language='javascript' src='com.extjs.gxt.samples.explorer.Explorer/com.extjs.gxt.samples.explorer.Explorer.nocache.js'></script>
+<iframe src="javascript:''" id="__gwt_historyFrame" style="width:0;height:0;border:0"></iframe>
+
+</body>
+</html>

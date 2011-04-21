@@ -1,0 +1,1 @@
+The Ext JS javascript files are only used for the samples page, not any of the examples or demos.
